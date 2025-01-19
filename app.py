@@ -12,5 +12,5 @@ def party(theme):
     return render_template('party.html', theme=theme)
 
 if __name__ == '__main__':
-    app.run(debug=True)  # run our 
+    app.run(debug=True)  # run our flak
 
