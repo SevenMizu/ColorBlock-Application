@@ -18,7 +18,7 @@ def rsvp():
     return render_template("rsvp.html")
 
 def party(theme):
-    return render_template('party.html', theme=theme)f
+    return render_template('party.html', theme=theme)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')  # run our flask app
