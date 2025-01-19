@@ -77,6 +77,10 @@ body {
   background: linear-gradient(to right, #000000, #ffcc00);
 }
 
+.pink {
+  background-color: #ff69b4;
+}
+
 /* Footer */
 footer {
   text-align: center;
