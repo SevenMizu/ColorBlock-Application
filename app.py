@@ -7,7 +7,8 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route("/party/<theme>")
+#@app.route("/party/<theme>")
+app.route("/rsvp", methods=["GET", "POST"])
 def rsvp():
     if request.method == "POST":
         name = request.form.get("name")
@@ -17,8 +18,8 @@ def rsvp():
         return render_template("thank_you.html", name=name)
     return render_template("rsvp.html")
 
-def party(theme):
-    return render_template('party.html', theme=theme)
+#def party(theme):
+    #eturn render_template('party.html', theme=theme)
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')  # run our flask app
