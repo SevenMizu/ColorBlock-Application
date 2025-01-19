@@ -8,7 +8,7 @@ def home():
     return render_template('index.html')
 
 #@app.route("/party/<theme>")
-app.route("/rsvp", methods=["GET", "POST"])
+@app.route("/rsvp", methods=["GET", "POST"])
 def rsvp():
     if request.method == "POST":
         name = request.form.get("name")
