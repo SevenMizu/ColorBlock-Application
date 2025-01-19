@@ -81,6 +81,10 @@ body {
   background-color: #ff69b4;
 }
 
+.halloween {
+  background: linear-gradient(to right, #ff6600, #000000);
+}
+
 /* Footer */
 footer {
   text-align: center;
