@@ -12,5 +12,5 @@ def party(theme):
     return render_template('party.html', theme=theme)
 
 if __name__ == '__main__':
-    app.run(debug=True)  # run our flask app
+    app.run(debug=True, host='0.0.0.0')  # run our flask app
 
