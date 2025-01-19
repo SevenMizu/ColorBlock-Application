@@ -85,6 +85,10 @@ body {
   background: linear-gradient(to right, #ff6600, #000000);
 }
 
+.blue {
+  background-color: #2196f3;
+}
+
 /* Footer */
 footer {
   text-align: center;
